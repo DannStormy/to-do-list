@@ -13,7 +13,7 @@ body{
 }
 .container{
 background-color: #f5f5f5;
-width: 25%;
+width: 350px;
 border-radius: 10px;
 margin-top: 20px;
 padding: 20px 20px;
@@ -29,16 +29,31 @@ header{
 .each-li{
   display: flex;
   margin: 40px 0;
+  justify-content: space-between;
+}
+.li-del{
+  display: flex;
+  justify-content: space-between;
 }
 .list-marker{
   margin-right: 20px;
   height: 20px;
   width: 10px;
   border-radius: 7px;
-  background-color: #31bbac;
-  /* border: 2px solid grey; */
+  background-color: red;
   align-items: center;
   cursor: pointer;
+}
+
+.list-marker-incomplete{
+  margin-right: 20px;
+  height: 20px;
+  width: 10px;
+  border-radius: 7px;
+  background-color: #31bbac;
+  align-items: center;
+  cursor: pointer;
+
 }
 
 
@@ -58,11 +73,17 @@ ul li{
   margin-top: 150px;
   width: calc(100% + 40px);
 }
+img{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
 .input input{
   padding: 10px;
   background-color: transparent;
   border: none;
   color: #969fa2;
+  width: 100%;
 }
 ::placeholder{
   color: #969fa2;
