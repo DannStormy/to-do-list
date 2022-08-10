@@ -32,7 +32,7 @@ button{
   cursor: pointer;
 }
 .list-container{
-  width: 450px;
+  width: 570px;
   margin: auto;
   height: 300px;
   padding: 10px;
@@ -40,7 +40,9 @@ button{
   scrollbar-color: inherit;
 }
 .show-completed{
-  opacity: 0.5;
+  text-decoration: line-through;
+  color: white;
+  opacity: 0.7;
 }
 form{
   margin-top: 100px;
@@ -57,7 +59,7 @@ form{
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: transparent;
+  background-color: #a14f4d;
   border: 3px solid white;
   cursor: pointer;
   margin-right: 20px;
@@ -89,3 +91,45 @@ li{
   transform: translateY(8rem) rotateZ(20deg);
   opacity: 0;
 }
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+.select{
+  overflow: hidden;
+}
+
+select{
+  cursor: pointer;
+  height: 50px;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  width: 100px;
+  background-color: #372612;
+  color: white;
+}
+select:hover{
+  background-color: #7d3c32;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
