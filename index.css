@@ -76,7 +76,7 @@ li{
   text-align: left;
   font-weight: 600;
   width: 300px;
-  overflow: hidden;
+  word-break: break-word;
 }
 .li-del{
   display: flex;
@@ -91,13 +91,7 @@ li{
   transform: translateY(8rem) rotateZ(20deg);
   opacity: 0;
 }
-select{
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  border: none;
-  outline: none;
-  appearance: none;
-}
+
 .select{
   overflow: hidden;
 }
@@ -105,7 +99,6 @@ select{
 select{
   cursor: pointer;
   height: 50px;
-  padding: 1rem;
   border-radius: 5px;
   text-align: center;
   width: 100px;
