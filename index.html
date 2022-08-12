@@ -12,13 +12,15 @@
 </head>
 <body>
     <form class="input">
-      <select name="todos" class="check-todos">
-        <option selected="selected" value="all">All Tasks</option>
-        <option value="completed">Completed</option>
-        <option value="incomplete">Incomplete</option>
-      </select>
       <input type="text" class="add-task" placeholder="What do you have to do today?">
-      <button class="button">ADD</button>
+      <div class="button-container">
+        <button class="button">ADD</button>
+        <select name="todos" class="check-todos">
+          <option selected="selected" value="all">All Tasks</option>
+          <option value="completed">Completed</option>
+          <option value="incomplete">Incomplete</option>
+        </select>
+      </div>
     </form>
     <div class="list-container">
       <ul class="ul-lists">
