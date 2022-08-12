@@ -25,6 +25,7 @@ input{
 }
 .button-container{
   display: flex;
+  flex-direction: row-reverse;
   width: 540px;
   justify-content: space-between;
   margin: auto;
