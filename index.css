@@ -128,6 +128,7 @@ select:hover{
   form{
     display: flex;
     flex-direction: column;
+    padding: 10px;
   }
   input{
     width: 100%;
@@ -136,6 +137,7 @@ select:hover{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    width: 100%;
   }
   .button-container button, select{
     margin-top: 5px;
